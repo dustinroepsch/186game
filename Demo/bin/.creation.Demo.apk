@@ -1,0 +1,15 @@
+D:\Documents\flex_sdk_4.6\bin\adt.bat
+-package
+-target
+apk
+-storetype
+pkcs12
+-keystore
+C:\Users\dusti_000\androidspace\Demo\bin\dummyCertificate.p12
+-storepass
+ZdxUnvVjr1A=
+C:/Users/dusti_000/androidspace/Demo/bin/Demo.apk
+bin/Demo-app.xml
+-C
+bin
+Demo.swf
