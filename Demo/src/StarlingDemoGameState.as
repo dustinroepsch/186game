@@ -31,8 +31,10 @@ package {
 	//		var coin : Coin = new Coin("coin", {x:360, y:200});
 		//	add(coin);
 
-			var hero : Hero = new Hero("hero", {x:100, y:350, width:60, height:135});
-			add(hero);
+			//var mainCharacter:MainCharacter = new MainCharacter("Bob",{x:100, y:350, width:60, height:135});
+			var mainCharacter:MainCharacter = new MainCharacter("Bob",{x:100, y:350, width:60, height:135, updateCallEnabled:true});
+			
+			add(mainCharacter);
 
 //			var enemy : Enemy = new Enemy("enemy", {x:stage.stageWidth - 50, y:350, width:46, height:68, leftBound:20, rightBound:stage.stageWidth - 20});
 	//		add(enemy);

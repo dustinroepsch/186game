@@ -14,13 +14,13 @@
 <stringAttribute key="CUSTOM_ADL_CMD_LINE" value="${nodebug} ${profile} ${screensize} ${anesdir} ${desc} ${rootdir} ${appargs}"/>
 <booleanAttribute key="DEINSTALL_TARGET" value="true"/>
 <booleanAttribute key="DISABLE_COMPILE_PROCESS" value="false"/>
-<booleanAttribute key="FORCE_FRESH_COMPILATION" value="true"/>
+<booleanAttribute key="FORCE_FRESH_COMPILATION" value="false"/>
 <booleanAttribute key="INSTALL_APPLICATION" value="true"/>
-<booleanAttribute key="KILL_ADB_BEFORE_INSTALL" value="true"/>
+<booleanAttribute key="KILL_ADB_BEFORE_INSTALL" value="false"/>
 <booleanAttribute key="KILL_ADB_ON_STOP_DEBUG" value="false"/>
 <stringAttribute key="LAUNCHER_DEPENDENCIES" value="[Self]"/>
 <intAttribute key="LAUNCH_METHOD" value="0"/>
-<stringAttribute key="MAIN_CLASS" value="src/Main.as"/>
+<stringAttribute key="MAIN_CLASS" value="src/MainCharacter.as"/>
 <stringAttribute key="MOBILE_PRESET" value="ASUS Eee Pad Transformer"/>
 <booleanAttribute key="PASS_CP" value="true"/>
 <booleanAttribute key="PASS_DEFINES" value="true"/>
