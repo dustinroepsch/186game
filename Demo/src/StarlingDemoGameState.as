@@ -32,9 +32,17 @@ package {
 		//	add(coin);
 
 			//var mainCharacter:MainCharacter = new MainCharacter("Bob",{x:100, y:350, width:60, height:135});
-			var mainCharacter:MainCharacter = new MainCharacter("Bob",{x:100, y:350, width:60, height:135, updateCallEnabled:true});
-			
+			var mainCharacter:MainCharacter = new MainCharacter("Bob",{x:200, y:450, width:60, height:135, updateCallEnabled:true});
 			add(mainCharacter);
+			
+			var log1:Log = new Log(0, "Left Loggy",{x:200, y:150, width:135, height:30, updateCallEnabled:true});
+			add(log1);
+			
+			var log2:Log = new Log(1, "Right Loggy",{x:10, y:200, width:135, height:30, updateCallEnabled:true});
+			add(log2);
+			
+			var log3:Log = new Log(0, "Left Loggy2",{x:155, y:250, width:135, height:30, updateCallEnabled:true});
+			add(log3);
 
 //			var enemy : Enemy = new Enemy("enemy", {x:stage.stageWidth - 50, y:350, width:46, height:68, leftBound:20, rightBound:stage.stageWidth - 20});
 	//		add(enemy);

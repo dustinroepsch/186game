@@ -65,6 +65,7 @@ package{
 				movingDown = false;
 			}
 			
+			//if touched, remove
 		}
 	}
 }
