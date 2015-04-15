@@ -1,0 +1,16 @@
+<TextureAtlas imagePath="sheet.png">
+	<SubTexture name="BG.jpg" x="0" y="907" width="160" height="160"/>
+	<SubTexture name="GameBG.png" x="0" y="124" width="935" height="562"/>
+	<SubTexture name="Exit (1).png" x="121" y="1190" width="118" height="119"/>
+	<SubTexture name="Exit (2).png" x="0" y="1432" width="119" height="119"/>
+	<SubTexture name="Ground.png" x="0" y="0" width="1601" height="122"/>
+	<SubTexture name="HPBar.png" x="0" y="875" width="214" height="30"/>
+	<SubTexture name="HPDock.png" x="0" y="825" width="232" height="48"/>
+	<SubTexture name="Options (1).png" x="121" y="1432" width="118" height="119"/>
+	<SubTexture name="Options (2).png" x="0" y="1311" width="119" height="119"/>
+	<SubTexture name="Play (1).png" x="121" y="1311" width="118" height="119"/>
+	<SubTexture name="Play (2).png" x="0" y="1190" width="119" height="119"/>
+	<SubTexture name="Score (1).png" x="121" y="1069" width="118" height="119"/>
+	<SubTexture name="Score (2).png" x="0" y="1069" width="119" height="119"/>
+	<SubTexture name="Title.png" x="0" y="688" width="556" height="135"/>
+</TextureAtlas>
