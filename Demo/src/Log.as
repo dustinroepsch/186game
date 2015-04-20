@@ -13,21 +13,46 @@ package {
 
 	public class Log extends CitrusSprite{
 		
+		public static const LOG_LEFT: Number = 0;
+		public static const LOG_RIGHT: Number = 1;
+		public static const LOG_SPEED = 70;
+		public static const LOG_WIDTH = 64;
+		public static const LOG_HEIGHT =32;
+		
+		private var direction: Number;
 		
 		public function Log(direction: int, name:String, params:Object = null){
 			super(name,params);
 			
-			if (direction == 1) //right
-				_velocity.x = 70;
+			this.direction = direction;
+			
+			if (direction == LOG_RIGHT) //right
+				_velocity.x = LOG_SPEED;
 			else
-				_velocity.x = -70;
+				_velocity.x = -LOG_SPEED;
 		}
-		
+
 		override public function update(timeDelta:Number):void{
 			super.update(timeDelta);
 			
+			
+			//respawn on the other side
+			if (direction == LOG_LEFT)
+			{
+				if(x < -150)
+					x= 400;
+			}
+			
+			if(direction == LOG_RIGHT)
+			{
+				if(x > 400)
+					x = -150;
+			}
 		}
 		
+		public function getSpeed():int{
+			return _velocity.x;
+		}
 		
 	}
 }
